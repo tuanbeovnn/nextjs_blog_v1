@@ -1,8 +1,7 @@
 "use client"
-import Author from '@/app/components/author';
-import Badge from '@/app/components/badge';
-import { useParams } from 'next/navigation'
-import React from 'react'
+import { Author, Badge } from '@/components';
+import { useParams } from 'next/navigation';
+import React from 'react';
 
 export default function Index() {
     const params = useParams();

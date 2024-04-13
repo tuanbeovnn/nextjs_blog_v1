@@ -1,6 +1,6 @@
 import React from "react";
 
-const Ads = () => {
+export const Ads = () => {
     return (
         <div className="w-[750px] max-w-full h-[100px] rounded-xl bg-[#E8E8EA] p-4 text-center mx-auto">
             <div className="text-sm text-[#696A75]">Advertisement</div>
@@ -11,5 +11,3 @@ const Ads = () => {
         </div>
     );
 };
-
-export default Ads;

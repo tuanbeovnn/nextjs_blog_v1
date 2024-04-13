@@ -11,7 +11,7 @@ interface Props {
 
 }
 
-const Author = ({ avatar, name, createdAt, light = false }: Props) => {
+export const Author = ({ avatar, name, createdAt, light = false }: Props) => {
     return (
         <Link href={`/author/:id`} className="flex flex-wrap items-center">
             <img
@@ -33,5 +33,3 @@ const Author = ({ avatar, name, createdAt, light = false }: Props) => {
         </Link>
     );
 };
-
-export default Author;

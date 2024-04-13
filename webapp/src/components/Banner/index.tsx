@@ -1,8 +1,8 @@
 import React from "react";
-import Author from "../author";
-import Badge from "../badge";
+import { Author } from "../Author";
+import { Badge } from "../Badge";
 
-const Banner = () => {
+export const Banner = () => {
     return (
         <section className="mt-2.5 mb-4 md:mb-16">
             <div className="max-w-7xl mx-auto md:px-8 px-4 md:pt-4">
@@ -30,5 +30,3 @@ const Banner = () => {
         </section>
     );
 };
-
-export default Banner;

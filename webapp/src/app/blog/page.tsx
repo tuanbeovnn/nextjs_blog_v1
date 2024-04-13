@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
-import Badge from '../components/badge';
-import Author from '../components/author';
-import ListPost from '../components/listpost';
-import Ads from '../components/ads';
+import {
+    Ads,
+    Badge,
+    Author,
+    ListPost,
+} from '@/components';
 
 const page = () => {
     return (

@@ -1,6 +1,8 @@
-import Banner from "./components/banner";
-import Ads from "./components/ads";
-import ListPost from "./components/listpost";
+import {
+    Banner,
+    Ads,
+    ListPost,
+} from '@/components';
 
 export default function Home() {
     return (

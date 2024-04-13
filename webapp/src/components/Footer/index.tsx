@@ -2,7 +2,7 @@ import React from "react";
 import EmailIcon from "../../../assets/images/mail.png";
 import LogoIcon from "../../../assets/images/logo-notext.png";
 import Image from 'next/image';
-const Footer = () => {
+export const Footer = () => {
     return (
         <footer className="bg-[#F6F6F7] pt-16">
             <div className="max-w-7xl mx-auto md:px-8 px-4">
@@ -158,4 +158,3 @@ const Footer = () => {
     );
 };
 
-export default Footer;
