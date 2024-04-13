@@ -6,7 +6,7 @@ import SearchIcon from "../../../assets/images/search.png";
 import SunnyIcon from "../../../assets/images/sunny.png";
 import Image from 'next/image';
 
-const Header = () => {
+export const Header = () => {
     const [isDark, setIsDark] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
 
@@ -57,6 +57,14 @@ const Header = () => {
                             >
                                 Contact
                             </a>
+                        </li>
+                        <li>
+                            <Link
+                                href="/login"
+                                className="inline-block text-[#3B3C4A] hover:text-blue-600 text-base"
+                            >
+                                Login
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -190,5 +198,3 @@ const Header = () => {
         </header>
     );
 };
-
-export default Header;

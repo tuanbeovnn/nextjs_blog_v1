@@ -1,9 +1,9 @@
 import React from "react";
-import Badge from "../badge";
-import Author from "../author";
+import { Badge  } from "../Badge";
+import { Author } from "../Author";
 import Link from 'next/link';
 
-const Post = () => {
+export const Post = () => {
     return (
         <div className="md:p-4 p-2.5 border border-[#E8E8EA] rounded-xl">
             <Link href={`/blog/:id`} className="relative block pt-[67%]">
