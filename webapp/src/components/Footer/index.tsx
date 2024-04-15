@@ -1,6 +1,6 @@
 import React from "react";
-import EmailIcon from "../../../assets/images/mail.png";
-import LogoIcon from "../../../assets/images/logo-notext.png";
+import EmailIcon from "../../assets/images/mail.png";
+import LogoIcon from "../../assets/images/logo-notext.png";
 import Image from 'next/image';
 export const Footer = () => {
     return (
@@ -111,7 +111,7 @@ export const Footer = () => {
                                     placeholder="Your Email"
                                 />
                                 <div className="pr-4">
-                                    <img
+                                    <Image
                                         src={EmailIcon}
                                         className="w-5 h-5 object-cover"
                                         alt=""
